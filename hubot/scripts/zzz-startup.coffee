@@ -18,6 +18,6 @@
  
 module.exports = (robot) -> 
   ROOM = "#daves_bots" 
-  MESSAGE = "*#{robot.name} is online* :robot_face:" 
+  MESSAGE = "https://media.giphy.com/media/yj5UdA4elp8Wc/giphy.gif" 
  
   robot.messageRoom ROOM, MESSAGE
